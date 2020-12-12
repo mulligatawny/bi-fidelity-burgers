@@ -6,7 +6,7 @@ The code demonstrates the use of a linear transformation that uses domain-specif
 
 The interpolative decomposition used is from Martinsson et al. (https://www.pnas.org/content/104/51/20167), and the package documentation is found here: https://docs.scipy.org/doc/scipy/reference/linalg.interpolative.html. For a CFD application of the bi-fidelity approximation, see Fairbanks et al.: https://arxiv.org/abs/1808.05742.
 
-File manifest:
+## File manifest:
 
 `data` contains LF and HF matrices saved for outer loop activities.
 
@@ -18,3 +18,4 @@ File manifest:
 
 `brief_summary.pdf` is a short report summarizing the problem.
 
+`bi_fidelity_1d_advection.ipynb` contains the linear advection code for reference.
